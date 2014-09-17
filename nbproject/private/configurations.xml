@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="contrib">
+      </df>
+      <df name="debugclient">
+        <df name="build">
+        </df>
+        <in>main.c</in>
+        <in>usefulstuff.c</in>
+        <in>usefulstuff.h</in>
+      </df>
+      <in>php_xdebug.h</in>
+      <in>usefulstuff.c</in>
+      <in>usefulstuff.h</in>
+      <in>xdebug.c</in>
+      <in>xdebug_code_coverage.c</in>
+      <in>xdebug_code_coverage.h</in>
+      <in>xdebug_com.c</in>
+      <in>xdebug_com.h</in>
+      <in>xdebug_compat.c</in>
+      <in>xdebug_compat.h</in>
+      <in>xdebug_handler_dbgp.c</in>
+      <in>xdebug_handler_dbgp.h</in>
+      <in>xdebug_handlers.c</in>
+      <in>xdebug_handlers.h</in>
+      <in>xdebug_hash.c</in>
+      <in>xdebug_hash.h</in>
+      <in>xdebug_llist.c</in>
+      <in>xdebug_llist.h</in>
+      <in>xdebug_mm.h</in>
+      <in>xdebug_private.c</in>
+      <in>xdebug_private.h</in>
+      <in>xdebug_profiler.c</in>
+      <in>xdebug_profiler.h</in>
+      <in>xdebug_set.c</in>
+      <in>xdebug_set.h</in>
+      <in>xdebug_stack.c</in>
+      <in>xdebug_stack.h</in>
+      <in>xdebug_str.c</in>
+      <in>xdebug_str.h</in>
+      <in>xdebug_superglobals.c</in>
+      <in>xdebug_superglobals.h</in>
+      <in>xdebug_tracing.c</in>
+      <in>xdebug_tracing.h</in>
+      <in>xdebug_var.c</in>
+      <in>xdebug_var.h</in>
+      <in>xdebug_xml.c</in>
+      <in>xdebug_xml.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile.in</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

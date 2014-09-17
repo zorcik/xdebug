@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="debugclient">
+        <in>main.c</in>
+        <in>usefulstuff.c</in>
+      </df>
+      <in>usefulstuff.c</in>
+      <in>xdebug.c</in>
+      <in>xdebug_code_coverage.c</in>
+      <in>xdebug_com.c</in>
+      <in>xdebug_compat.c</in>
+      <in>xdebug_handler_dbgp.c</in>
+      <in>xdebug_handlers.c</in>
+      <in>xdebug_hash.c</in>
+      <in>xdebug_llist.c</in>
+      <in>xdebug_private.c</in>
+      <in>xdebug_profiler.c</in>
+      <in>xdebug_set.c</in>
+      <in>xdebug_stack.c</in>
+      <in>xdebug_str.c</in>
+      <in>xdebug_superglobals.c</in>
+      <in>xdebug_tracing.c</in>
+      <in>xdebug_var.c</in>
+      <in>xdebug_xml.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile.in</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile.in</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile.in</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile.in clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="debugclient/main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="debugclient/usefulstuff.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <folder path="0/debugclient">
+        <cTool>
+          <incDir>
+            <pElem>debugclient</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="usefulstuff.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_code_coverage.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_com.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_compat.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_handler_dbgp.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_handlers.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_hash.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_llist.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_private.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_profiler.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_set.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_stack.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_str.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_superglobals.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_tracing.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_var.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="xdebug_xml.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

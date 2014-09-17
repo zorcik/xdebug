@@ -1,0 +1,2 @@
+Makefile.in:8: /build/dynlib.mk: No such file or directory
+make: *** No rule to make target '/build/dynlib.mk'.  Stop.
