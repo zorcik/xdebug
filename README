@@ -18,7 +18,7 @@ Kompilacja:
 
 zend_extension="/wherever/you/put/it/xdebug.so"
 
-6. Należy skonfigurować projekt do bugrackera
+6. Należy skonfigurować projekt do bugtrackera
 
 * albo w pliku php.ini projektu dodać:
 
